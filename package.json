@@ -51,8 +51,8 @@
         "@pika/plugin-standard-pkg",
         {
           "exclude": [
-            "*.spec.*",
-            "*.js.snap"
+            "**/*.spec.js",
+            "**/*.js.snap"
           ]
         }
       ],

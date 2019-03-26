@@ -1,9 +1,9 @@
 {
   "name": "redux-state-snapshot",
-  "version": "0.0.3",
+  "version": "0.0.0",
   "description": "Simple utility to help test your redux integration",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

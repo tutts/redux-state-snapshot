@@ -1,0 +1,43 @@
+{
+  "name": "redux-state-snapshot",
+  "description": "Simple utility to help test your redux integration",
+  "version": "1.0.0",
+  "license": "MIT",
+  "esnext": "dist-src/index.js",
+  "main": "dist-node/index.js",
+  "module": "dist-web/index.js",
+  "types": "dist-types/index.d.ts",
+  "pika": true,
+  "sideEffects": false,
+  "keywords": [
+    "redux",
+    "state",
+    "snapshot",
+    "test",
+    "tests",
+    "testing",
+    "jest",
+    "integration"
+  ],
+  "files": [
+    "dist-*/",
+    "assets/",
+    "bin/"
+  ],
+  "homepage": "https://github.com/tutts/redux-state-snapshot#readme",
+  "bugs": {
+    "url": "https://github.com/tutts/redux-state-snapshot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutts/redux-state-snapshot.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@pika/pack": "0.3.5",
+    "@pika/plugin-standard-pkg": "^0.3.14",
+    "@pika/plugin-build-node": "0.3.12",
+    "@pika/plugin-build-types": "0.3.12",
+    "@pika/plugin-build-web": "0.3.12"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "redux-state-snapshot",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Simple utility to help test your redux integration",
   "scripts": {
     "test": "test"

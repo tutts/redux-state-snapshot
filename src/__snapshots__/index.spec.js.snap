@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GIVEN a user WHEN I want to test my async redux actions and state AND I can use actionsToStateSnapshot for sync actions to snapshot on success: ACTION_TYPE_TEST 1`] = `
+Object {
+  "data": Array [],
+  "error": null,
+  "foo": "bar",
+  "loading": false,
+}
+`;
+
+exports[`GIVEN a user WHEN I want to test my async redux actions and state AND I can use actionsToStateSnapshot with a default state to snapshot on success: ACTION_TYPE_TEST 1`] = `
+Object {
+  "customData": true,
+  "foo": "bar",
+}
+`;
+
+exports[`GIVEN a user WHEN I want to test my async redux actions and state THEN I can use actionsToStateSnapshot for async actions to snapshot on failure: ACTION_TYPE_TEST_FAILURE 1`] = `
+Object {
+  "data": Array [],
+  "error": "Uh oh!",
+  "loading": false,
+}
+`;
+
+exports[`GIVEN a user WHEN I want to test my async redux actions and state THEN I can use actionsToStateSnapshot for async actions to snapshot on failure: ACTION_TYPE_TEST_STARTING 1`] = `
+Object {
+  "data": Array [],
+  "error": null,
+  "loading": true,
+}
+`;
+
+exports[`GIVEN a user WHEN I want to test my async redux actions and state THEN I can use actionsToStateSnapshot for async actions to snapshot on success: ACTION_TYPE_TEST_STARTING 1`] = `
+Object {
+  "data": Array [],
+  "error": null,
+  "loading": true,
+}
+`;
+
+exports[`GIVEN a user WHEN I want to test my async redux actions and state THEN I can use actionsToStateSnapshot for async actions to snapshot on success: ACTION_TYPE_TEST_SUCCESS 1`] = `
+Object {
+  "data": Array [
+    "foo",
+    "bar",
+  ],
+  "error": null,
+  "loading": false,
+}
+`;

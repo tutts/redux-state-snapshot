@@ -6,7 +6,7 @@ Simple utility to help test your redux integration
 
 Its common to test Redux in isolation, as its spearation of concerns lends well to unit tests, however testing the integration between ActionTypes, Actions and Reducers from an end user perspective is more challenging.
 
-This tiny utility builds on top of the great work done with [`redux-mock-store`](https://github.com/dmitry-zaets/redux-mock-store), and allows you to test your Redux actions (syncronously or asyncronously), offering your components using Redux stores downstream certainty, by taking a snapshot of your state after each action.
+This tiny utility builds on top of the great work done with [`redux-mock-store`](https://github.com/dmitry-zaets/redux-mock-store), and allows you to test your Redux actions (syncronously or asyncronously), offering your downstream components using Redux certainty, by taking a snapshot of your state after each action, to capture potential regressions. 
 
 ## Requirements
 
